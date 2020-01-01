@@ -62,6 +62,7 @@ class SignInFormState extends State<SignInForm> {
             ),
             TextFormField(
               controller: passwordController,
+              obscureText: true,
               decoration:
                   InputDecoration(hintText: 'Password', labelText: 'Password'),
             ),
